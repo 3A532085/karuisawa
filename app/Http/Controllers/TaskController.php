@@ -42,13 +42,11 @@ class TaskController extends Controller
      * @param  Request  $request
      * @return Response
      */
-    public function index(Request $request)
+    public function index()
     {
-        $tasks = Task::where('user_id', $request->user()->id)->get();
+//        $tasks = Task::where('user_id', $request->user()->id)->get();
 
-        return view('tasks.index', [
-            'tasks' => $tasks,
-        ]);
+        return view('tasks.index');
     }
 
     /**
@@ -59,15 +57,20 @@ class TaskController extends Controller
      */
     public function store(Request $request)
     {
-        $this->validate($request, [
-            'name' => 'required|max:255',
-        ]);
+//        $this->validate($request, [
+//            'name' => 'required|max:255',
+//        ]);
 
         $request->user()->tasks()->create([
             'name' => $request->name,
+            'people' => $request->people,
+            'phone' => $request->phone,
+            'store' => $request->store,
+            'date' => $request->date,
+            'time' => $request->time,
         ]);
 
-        return redirect('/tasks');
+        return redirect('reservationok');
     }
 
     /**
@@ -83,6 +86,15 @@ class TaskController extends Controller
 
         $task->delete();
 
-        return redirect('/tasks');
+        return redirect('/searchreservation');
+    }
+
+    public function ok(Request $request, $id)
+    {
+        $task=Task::find($id);
+        $task->update([
+            'status' => $request->status,
+        ]);
+        return redirect('/allreservation');
     }
 }
