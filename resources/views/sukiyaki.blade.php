@@ -51,7 +51,7 @@
                 <a href="#"><img class="intro-header" src="/img/壽喜燒鍋.jpg" style="width: 300px;height:300px;"></a>
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="http://60.249.71.45/~karuisawa/product_d.php?pid=6" target="_blank" title="壽喜燒鍋">壽喜燒鍋</a>
+                        <label>壽喜燒鍋  $270</label>
                     </h4>
                     <p class="card-text"></p>
                 </div>
@@ -62,7 +62,7 @@
                 <a href="#"> <img class="intro-header" src="/img/培根豬肉壽喜燒鍋.jpg" style="width:300px;height:300px;"></a>
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="http://60.249.71.45/~karuisawa/product_d.php?pid=6" target="_blank" title="培根豬肉壽喜燒鍋">培根豬肉壽喜燒鍋</a>
+                        <label>培根豬肉壽喜燒鍋  $298</label>
                     </h4>
                     <p class="card-text"></p>
                 </div>
@@ -73,7 +73,7 @@
                 <a href="#"><img class="intro-header" src="/img/沙朗牛肉壽喜燒鍋.jpg" style="width:300px;height:300px;"></a>
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="http://60.249.71.45/~karuisawa/product_d.php?pid=6" target="_blank" title="沙朗牛肉壽喜燒鍋">沙朗牛肉壽喜燒鍋</a>
+                        <label>沙朗牛肉壽喜燒鍋  $298</label>
                     </h4>
                     <p class="card-text"></p>
                 </div>
@@ -84,7 +84,7 @@
                 <a href="#"><img class="intro-header" src="/img/美國自然牛培根壽喜燒鍋.jpg" style="width:300px;height:300px;"></a>
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="http://60.249.71.45/~karuisawa/product_d.php?pid=6" target="_blank" title="美國自然牛培根壽喜燒鍋">　美國自然牛培根壽喜燒鍋</a>
+                        <label>美國自然牛培根壽喜燒鍋  $298</label>
                     </h4>
                     <p class="card-text"></p>
                 </div>

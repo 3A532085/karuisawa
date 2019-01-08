@@ -51,7 +51,7 @@
                 <a href="#"><img class="intro-header" src="/img/梅花豬肉.jpg" style="width: 300px;height:300px;"></a>
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="http://60.249.71.45/~karuisawa/product_d.php?pid=5" target="_blank" title="梅花">梅花豬肉和風燒鍋</a>
+                        <label>梅花豬肉和風燒鍋 $220</label>
                     </h4>
                     <p class="card-text"></p>
                 </div>
@@ -62,7 +62,7 @@
                 <a href="#"> <img class="intro-header" src="/img/雪花牛肉.jpg" style="width:300px;height:300px;"></a>
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="http://60.249.71.45/~karuisawa/product_d.php?pid=5" target="_blank" title="梅花">雪花牛肉和風燒鍋</a>
+                        <label>雪花牛肉和風燒鍋 $380</label>
                     </h4>
                     <p class="card-text"></p>
                 </div>
@@ -73,7 +73,7 @@
                 <a href="#"><img class="intro-header" src="/img/沙朗牛肉.jpg" style="width:300px;height:300px;"></a>
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="http://60.249.71.45/~karuisawa/product_d.php?pid=5" target="_blank" title="梅花">沙朗牛肉和風燒鍋</a>
+                        <label>沙朗牛肉和風燒鍋 $275</label>
                     </h4>
                     <p class="card-text"></p>
                 </div>
@@ -84,7 +84,7 @@
                 <a href="#"><img class="intro-header" src="/img/豪華海陸.jpg" style="width:300px;height:300px;"></a>
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="http://60.249.71.45/~karuisawa/product_d.php?pid=5" target="_blank" title="梅花">豪華海陸極品燒鍋</a>
+                        <label>豪華海陸極品燒鍋 $580</label>
                     </h4>
                     <p class="card-text"></p>
                 </div>
@@ -95,7 +95,7 @@
                 <a href="#"><img class="intro-header" src="/img/雙拼鮮魚.jpg" style="width:300px;height:300px;"></a>
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="http://60.249.71.45/~karuisawa/product_d.php?pid=5" target="_blank" title="梅花">雙拼鮮魚切片燒鍋</a>
+                        <label>雙拼鮮魚切片燒鍋 $298</label>
                     </h4>
                     <p class="card-text"></p>
                 </div>
@@ -106,7 +106,7 @@
                 <a href="#"><img class="intro-header" src="/img/霜降牛肉.jpg" style="width:300px;height:300px;"></a>
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="http://60.249.71.45/~karuisawa/product_d.php?pid=5" target="_blank" title="梅花">霜降牛肉和風燒鍋</a>
+                        <label>霜降牛肉和風燒鍋 $330</label>
                     </h4>
                     <p class="card-text"></p>
                 </div>

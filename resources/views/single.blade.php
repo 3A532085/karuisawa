@@ -51,7 +51,7 @@
                 <a href="#"><img class="intro-header" src="/img/滑嫩雞柳.jpg" style="width: 300px;height:300px;"></a>
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="http://60.249.71.45/~karuisawa/product_d.php?pid=1" target="_blank" title="滑嫩雞柳">滑嫩雞柳</a>
+                        <label>滑嫩雞柳 $99</label>
                     </h4>
                     <p class="card-text"></p>
                 </div>
@@ -62,7 +62,7 @@
                 <a href="#"> <img class="intro-header" src="/img/滷肥腸.jpg" style="width:300px;height:300px;"></a>
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="http://60.249.71.45/~karuisawa/product_d.php?pid=1" target="_blank" title="滷肥腸">滷肥腸</a>
+                        <label>滷肥腸 $55</label>
                     </h4>
                     <p class="card-text"></p>
                 </div>
@@ -73,7 +73,7 @@
                 <a href="#"><img class="intro-header" src="/img/滷鴨血.jpg" style="width:300px;height:300px;"></a>
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="http://60.249.71.45/~karuisawa/product_d.php?pid=1" target="_blank" title="滷鴨血">滷鴨血</a>
+                        <label>滷鴨血 $45</label>
                     </h4>
                     <p class="card-text"></p>
                 </div>
@@ -84,7 +84,7 @@
                 <a href="#"><img class="intro-header" src="/img/鴨血糕.jpg" style="width:300px;height:300px;"></a>
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="http://60.249.71.45/~karuisawa/product_d.php?pid=1" target="_blank" title="鴨血糕">鴨血糕</a>
+                        <label>鴨血糕 $35</label>
                     </h4>
                     <p class="card-text"></p>
                 </div>
