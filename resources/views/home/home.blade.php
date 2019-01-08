@@ -2,13 +2,14 @@
 
 @section('content')
     <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="panel panel-default">
-                    <div class="panel-heading">Dashboard</div>
+        <div class="row　justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header"> 登入成功</div>
 
-                    <div class="panel-body">
-                        You are logged in!
+                    <div class="card-body">
+                        {{ Auth::user()->name }} 您好!<br><br>
+                        ~歡迎來到輕井澤線上訂位系統~
                     </div>
                 </div>
             </div>
