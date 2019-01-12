@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>登入成功</title>
+    <title>登入</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
