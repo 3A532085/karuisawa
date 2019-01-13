@@ -77,15 +77,28 @@
                 <label for="task-time" class="col-sm-3 control-label">時間</label>
 
                 <div class="col-sm-6">
-                    <input type="time" name="time" id="task-time" class="form-control">
+                    <select name="time" class="form-control">
+                        <option value="11:00~14:00">11:00~14:00</option>
+                        <option value="14:00~17:00">14:00~17:00</option>
+                        <option value="17:00~20:00">17:00~20:00</option>
+                        <option value="20:00~23:00">20:00~23:00</option>
+                        <option value="23:00~02:00">23:00~02:00</option>
+                    </select>
                 </div>
             </div>
             <!-- 增加任務按鈕-->
-            <div class="form-group">
+
+                <div class="form-group">
                 <div class="col-sm-offset-3 col-sm-6">
-                    <button type="submit" class="btn btn-success">
+                    @if($total>6)
+                        <button type="submit" disabled class="btn btn-success">
                         <i class="fa fa-plus"></i> 確認訂位
-                    </button>
+                        </button>
+                    @else
+                        <button type="submit"  class="btn btn-success">
+                            <i class="fa fa-plus"></i> 確認訂位
+                        </button>
+                    @endif
                 </div>
             </div>
         </form>
