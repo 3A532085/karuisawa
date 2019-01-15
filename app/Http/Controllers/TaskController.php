@@ -45,8 +45,11 @@ class TaskController extends Controller
     public function index()
     {
 //        $tasks = Task::where('user_id', $request->user()->id)->get();
+        $tasks = Task::orderby('user_id')->get();
+        $total = $tasks->count('user_id');
+        $data=['total' => $total];
 
-        return view('tasks.index');
+        return view('tasks.index', $data);
     }
 
     /**
@@ -69,8 +72,8 @@ class TaskController extends Controller
             'date' => $request->date,
             'time' => $request->time,
         ]);
+        return view('reservationok');
 
-        return redirect('reservationok');
     }
 
     /**

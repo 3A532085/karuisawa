@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Wenxin;
 use Illuminate\Http\Request;
 use App\Task;
 class SearchReservationController extends Controller
@@ -13,4 +14,5 @@ class SearchReservationController extends Controller
         $data=['tasks' => $tasks];
         return view('searchreservation',$data);
     }
+
 }
