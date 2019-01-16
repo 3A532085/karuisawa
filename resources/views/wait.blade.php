@@ -37,38 +37,54 @@
                         <tbody>
                             <tr>
                           　　  <th>文心店
-                                    目前排隊組數：{{$total}}組　
+                                    目前排隊組數：{{$total}}組<br>等候時間約:{{$timenews[0]->time}}分鐘<br>目前叫號 :{{$timenews[0]->num}}號
                                     <form action="/insertwait" method="GET">
                                         {{ csrf_field() }}
-                                        <button type="submit" class="btn btn-info">
+                                        @if($total>5)
+                                        <button type="submit" disabled class="btn btn-info">
                                            <i class="fa fa-plus"></i>我要候位
                                         </button>
+                                        @else
+                                            <button type="submit" class="btn btn-info">
+                                                <i class="fa fa-plus"></i>我要候位
+                                            </button>
+                                        @endif
                                     </form>
                                 </th>
                             　　<th>崇德店
-                                    目前排隊組數：組
-                                    <button type="submit" class="btn btn-info">
+                                    目前排隊組數：32組<br>等候時間約:50分鐘<br>目前叫號:2號
+                                    <form action="/insertwait/{id}" method="GET">
+                                    <button type="submit" disabled class="btn btn-info">
                                         <i class="fa fa-plus"></i>我要候位
-                                    </button></th>
+                                    </button>
+                                    </form>
+                                </th>
                                 <th>公益店
-                                    目前排隊組數：組
+                                    目前排隊組數：20組<br>等候時間約:27分鐘<br>目前叫號:8號
+                                    <form action="/insertwait/{id}" method="GET">
                                     <button type="submit" class="btn btn-info">
                                         <i class="fa fa-plus"></i>我要候位
                                     </button>
+                                    </form>
                                 </th>
+
                             </tr>
                             <tr>
                                 <th>台南店
-                                    目前排隊組數：組
-                                    <button type="submit" class="btn btn-info">
+                                    目前排隊組數：37組<br>等候時間約:42分鐘<br>目前叫號:6號
+                                    <form action="/insertwait/{id}" method="GET">
+                                    <button type="submit" disabled class="btn btn-info">
                                         <i class="fa fa-plus"></i>我要候位
                                     </button>
+                                    </form>
                                 </th>
                                 <th>博愛店
-                                    目前排隊組數：組
+                                    目前排隊組數：25組<br>等候時間約:28分鐘<br>目前叫號:12號
+                                    <form action="/insertwait/{id}" method="GET">
                                     <button type="submit" class="btn btn-info">
                                         <i class="fa fa-plus"></i>我要候位
                                     </button>
+                                    </form>
                                 </th>
                             </tr>
                         </tbody>

@@ -36,9 +36,7 @@
                         </thead>
                         <tbody>
                             <td>目前排隊組數：{{$total}}組</td>
-                            <td>
-                                您的候位號碼為：號
-                            </td>
+                            <td>您還須等待：{{$total-1}}組</td>
                         </tbody>
                     </table>
                 </div>
