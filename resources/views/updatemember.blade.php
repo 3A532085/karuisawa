@@ -28,26 +28,26 @@
                     <h1></h1>
                 </div>
                 <div class="row">
-                    <form action="/member/update/{{Auth::user()->id}}" method="GET">
+                    <form action="/member/update/{{$user->id}}" method="POST">
                         {{ csrf_field() }}
                         <div class="row control-group">
                             <div class="col-lg-3 col-lg-offset-2 col-md-10 col-md-offset-1">
                                 <label>姓名</label>
-                                <input type="text" class="form-control"  id="name" value="{{Auth::user()->name}}">
+                                <input type="text" class="form-control"  id="name" value="{{$user->name}}">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="col-lg-3 col-lg-offset-2 col-md-10 col-md-offset-1">
                                 <label>聯絡電話</label>
-                                <input type="text" class="form-control"  id="phone" value="{{Auth::user()->phone}}">
+                                <input type="text" class="form-control"  id="phone" value="{{$user->phone}}">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="col-lg-3 col-lg-offset-2 col-md-10 col-md-offset-1">
                                 <label>E-mail</label>
-                                <input type="email" class="form-control"  id="email" value="{{Auth::user()->email}}">
+                                <input type="email" class="form-control"  id="email" value="{{$user->email}}">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>

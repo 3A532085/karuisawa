@@ -25,8 +25,9 @@
         <div class="container">
             <div class="row">
                 <div class="page-header">
-                    <h1>會員基本資料</h1>
+                    <h1></h1>
                 </div>
+                <div class="row">
                     <form action="/editmember/{{Auth::user()->id}}" method="GET">
                         {{ csrf_field() }}
                         <div class="form-group">
@@ -42,7 +43,7 @@
                             <div class="col-sm-12">
                                 <h2>
                                     <label>聯絡電話：</label>
-                                    <td>{{Auth::user()->phone}}</td>
+                                    <td>0912345679</td>
                                 </h2>
                             </div>
                         </div>
@@ -54,14 +55,16 @@
                                 </h2>
                             </div>
                         </div>
-
                         <div class="col-sm-12">
-                            <button type="submit" class="btn btn-danger">
+
+                            <button type="submit" class="btn btn-default">
                                 <i class="fa fa-plus"></i> <h4>修改會員</h4>
                             </button>
+
                         </div>
                     </form>
-              </div>
+                </div>
+            </div>
         </div>
     </article>
 @endsection
