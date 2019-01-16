@@ -19,6 +19,7 @@ class CreateWenxinsTable extends Migration
             $table->string('name');
             $table->string('phone');
             $table->string('people');
+            $table->string('status');
             $table->timestamps();
         });
     }

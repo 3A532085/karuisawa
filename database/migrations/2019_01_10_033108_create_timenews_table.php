@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateChongdesTable extends Migration
+class CreateTimenewsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,13 @@ class CreateChongdesTable extends Migration
      */
     public function up()
     {
-        Schema::create('Chongdes', function (Blueprint $table) {
+        Schema::create('timenews', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('user_id')->index();
-            $table->string('name');
-            $table->string('phone');
-            $table->string('people');
-            $table->string('status');
+            $table->integer('time');
+            $table->integer('num');
+            $table->integer('post');
+            $table->string('store');
             $table->timestamps();
         });
     }
@@ -31,6 +31,6 @@ class CreateChongdesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('Chongdes');
+        Schema::dropIfExists('timenews');
     }
 }
