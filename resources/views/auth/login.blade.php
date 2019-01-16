@@ -49,6 +49,14 @@
                             </div>
 
                             <div class="form-group">
+                                @if (Request::has('a'))
+                                    <input type="hidden" name="previous" value="{{ Request::get('previous') }}">
+                                @else
+                                    <input type="hidden" name="previous" value="{{ URL::previous() }}">
+                                @endif
+                            </div>
+
+                            <div class="form-group">
                                 <div class="col-md-8 col-md-offset-4">
                                     <button type="submit" class="btn btn-primary">
                                         登入

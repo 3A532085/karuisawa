@@ -26,6 +26,9 @@
                         <a href="{{route('searchreservation.show')}}"><h5>查詢訂位資訊</h5></a>
                     </li>
                     <li>
+                        <a href="{{route('searchwait.index')}}"><h5>查詢候位狀態</h5></a>
+                    </li>
+                    <li>
                         <a href="{{route('meal.index')}}"><h5>餐點介紹</h5></a>
                     </li>
                     <li>
