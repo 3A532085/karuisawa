@@ -41,4 +41,21 @@ class User extends Authenticatable
     {
         return $this->hasOne(Wenxin::class);
     }
+
+
+    public function wenxin2()
+    {
+        return $this->hasOne(Wenxin2::class);
+    }
+
+    public function time()
+    {
+        return $this->hasOne(Timenew::class);
+    }
+
+    public function chongde()
+    {
+        return $this->hasOne(Wenxin::class);
+    }
+
 }

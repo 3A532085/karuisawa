@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Wenxin extends Model
+class Wenxin2 extends Model
 {
     protected $table = 'wenxins';
 
@@ -13,10 +13,5 @@ class Wenxin extends Model
     public function user()
     {
         return $this->belongsTo(User::class);
-    }
-
-    public function waittime()
-    {
-        return $this->hasOne(Time::class);
     }
 }
