@@ -9,10 +9,10 @@ use Illuminate\Http\Request;
 class MemberController extends Controller
 {
     public function show()
-    {
-        //
-        return view('member');
-    }
+{
+    //
+    return view('member');
+}
 
     public function index($id){
         $users=User::find($id);
@@ -35,6 +35,12 @@ class MemberController extends Controller
             'email' => $request->email,
                 ]);
 
-        return redirect('members/{id}');
+        return redirect('updatemember');
+    }
+
+    public function new()
+    {
+        //
+        return view('storemember');
     }
 }
